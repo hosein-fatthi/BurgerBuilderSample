@@ -6,7 +6,12 @@ import Button from '../../UI/Button/Button';
 
 import './BuildControls.css';
 
-
+/**
+ * container of all controls
+ * @param ingredients props for accesing all ingredients state
+ * @param disableAllButtons 
+ * @param price props for price of every individual ingredients
+ */
 const BuildControls = (props) => {
 
 

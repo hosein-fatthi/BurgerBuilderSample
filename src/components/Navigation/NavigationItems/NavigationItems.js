@@ -2,7 +2,9 @@ import React from 'react';
 
 import NavigationItem from './NavigationItem/NavigationItem';
 import './NavigationItems.css';
-
+/**
+ * container of every navigationItem 
+ */
 const navigationItems = (props) => {
     return (
         <nav id='navigationTag'>

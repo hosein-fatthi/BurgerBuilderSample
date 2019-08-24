@@ -2,6 +2,9 @@ import React from 'react';
 
 import './Footer.css'
 
+/**
+ * simple component to just render footer
+ */
 const Footer= (props) =>{
     return(
         <footer>

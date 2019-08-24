@@ -3,7 +3,11 @@ import React from 'react';
 import Aux from '../../../hoc/Aux';
 import Button from '../../UI/Button/Button';
 
-
+/**
+ * 
+ * @param cancelBtnClick props for handling cancel button
+ * @param ingredients props for accesing all ingredients array state
+ */
 const OrderSummary = (props) => {
 
     const ingredientskeys = Object.keys(props.ingredients);

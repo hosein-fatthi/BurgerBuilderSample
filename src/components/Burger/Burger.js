@@ -3,6 +3,11 @@ import React from 'react';
 import BurgerIngridient from './BurgerIngredient/BurgerIngredient';
 import './Burger.css';
 
+
+/**
+ * core component for showing burger and its functionality
+ * @param ingredients props for accesing all ingredients array state
+ */
 const burger = (props) => {
 
     let arrayOfIngredients = [];

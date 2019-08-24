@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import './BurgerIngredient.css';
-
+/**
+ * showing the ingridients based on type entered
+ * @param type props for type of ingredient to show 
+ */
 class BurgerIngredient extends Component {
 
     render() {

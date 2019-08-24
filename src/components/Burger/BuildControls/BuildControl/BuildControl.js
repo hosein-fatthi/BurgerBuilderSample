@@ -4,6 +4,13 @@ import WithClass from '../../../../hoc/withClass';
 import './BuildControl.css';
 import Button from '../../../UI/Button/Button';
 
+/**
+ * build control for every single ingredient
+ * @param label props for ingredient name
+ * @param amount props for checking the number of ingredient
+ * @param disableAllButtons 
+ * @param click props for handling click on buttons
+ */
 const BuildControl = (props) => {
 
     let disabled = false;
