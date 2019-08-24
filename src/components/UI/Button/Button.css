@@ -1,0 +1,34 @@
+.button{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    padding:10px;
+    border-radius: 20px;
+    transition: all 100ms;
+    cursor: pointer;
+}
+
+.button:disabled{
+    pointer-events: none;
+    color : gray;
+}
+
+.positive{
+    color: rgb(0, 212, 71);
+}
+.positive:hover{
+    color: rgb(38, 155, 2);
+}
+.negative{
+    color: rgb(243, 21, 21);
+}
+
+.negative:hover{
+    color: rgb(179, 16, 16);
+}
+
+
+.button:active{
+    transform: scale(1.2,1.2);
+}

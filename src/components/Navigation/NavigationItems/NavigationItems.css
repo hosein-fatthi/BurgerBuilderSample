@@ -1,0 +1,31 @@
+#navigationItems{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navigationTag{
+    height: 100%;
+}
+
+@media only screen and (max-width : 499px){
+    #navigationItems{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #navigationTag{
+        box-shadow: 0 0 10px rgb(116, 69, 0);
+        width: 100%;
+        height: 88%;
+    }
+
+}

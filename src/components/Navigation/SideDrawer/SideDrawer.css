@@ -1,0 +1,30 @@
+.sideDrawer{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(165, 99, 0);
+    padding: 32px 16px;
+    box-sizing: border-box;
+    z-index: 200;
+    transition: all 0.5s ease-out;
+}
+
+@media only screen and (min-width : 500px){
+    .sideDrawer{
+        display: none;
+    }
+}
+
+.open{
+    transform: translateX(0);
+}
+
+.close{
+    transform: translateX(-100%);
+}
+
+.sideDrawer #logoContainer{
+    height: 15%;
+}

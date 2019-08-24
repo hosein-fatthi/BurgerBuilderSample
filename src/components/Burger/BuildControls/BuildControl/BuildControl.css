@@ -1,0 +1,44 @@
+.buildControl label {
+    font-weight: bold;
+    display: inline-block;
+    width: 20%
+}
+
+.buildControl button {
+    width: 20%;
+    display: inline-block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.buildControl .more {
+    background-color: rgba(218, 128, 10, 0.801);
+    color: white;
+    transition: transform 200ms;
+}
+
+.buildControl .less {
+    background-color: rgba(218, 41, 10, 0.801);
+    color: white;
+    transition: transform 200ms;
+}
+
+.buildControl .more:hover {
+    background-color: rgba(194, 114, 11, 0.801);
+}
+
+.buildControl .less:hover {
+    background-color: rgba(179, 33, 7, 0.801);
+}
+
+.buildControl .more:active, .buildControl .less:active {
+    transform: scale(1.2, 1.2);
+}
+
+.buildControl .less:disabled , .buildControl .more:disabled {
+    background-color: rgba(141, 141, 141, 0.801);
+    color: white;
+}

@@ -1,0 +1,9 @@
+#buildControls {
+    width: 80%;
+    border: 1px solid rgb(216, 143, 8);
+    padding: 10px;
+    border-radius: 8px;
+    margin :0 auto;
+    position: relative;
+    top: 80px;
+}
